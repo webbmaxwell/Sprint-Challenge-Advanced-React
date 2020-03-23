@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Data from './Components/Data.js';
+import PlayerList from './Components/PlayerList.js';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           You can do this!
         </a>
       </header>
-      <Data />
+      <PlayerList />
     </div>
   );
 }
